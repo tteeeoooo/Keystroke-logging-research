@@ -1,0 +1,53 @@
+Final structure
+keystroke-logging/
+│
+├── report/
+│   ├── report.tex
+│   ├── report.pdf
+│   └── images/
+│       └── figure1.png
+│
+├── presentation/
+│   └── slides.pdf
+│
+├── code/
+│   ├── main.py
+│   └── requirements.txt
+│
+└── README.md
+
+Report structure
+Introduction
+* contribution list
+* summary of approach
+* why I chose to approach this project
+* what other research has been done on this idea
+* citations with previous work like this \cite{Aho:72} and mention in a paragraph what the previous work is about
+* if your project's aim is to reproduce an existing paper, you must:
+	* try to understand as much as possible what has been done in the paper
+	* highlight what you \textbf{did not} understand from the approach\footnote{It's okay \textbf{not} to know and to admit it (don't be afraid, you will not be evaluated based on what you did not understand.)}
+
+Approach
+Cover at least the following aspects:
+ 	* a link to a git /drive repository where your code/data is located
+	* what software tools you have used
+	* how long did the training / processing took?
+	* what kind of machine learning / deep learning tools you used and what architecture
+	* what tricks you tried (gradient clipping, batch normalization), if any
+	* an evaluation report of your method
+	* insert tables, images\footnote{if you take images from the web or from an external source, please cite the source appropriately}, or anything that may convince a reader about the validity of your work
+
+Limitations
+While we are open to different types of limitations, just mentioning that a set of results have been shown for English only probably does not reflect what we expect. In addition, limitations such as low scalability, the requirement of large GPU resources, or other things that inspire crucial further investigation are welcome. 
+
+Conclusions & future work
+This section is mandatory in your report, but it is more informal, don't be afraid to be honest, the evaluation will biased positively by your honesty. 
+Try to cover some of the following aspects:
+	* now that we did this project, is there anything we could have done different?
+	* is there any way of improving this project?
+	* did we like this project or not? (seriously)
+	* did we learn anything new by doing this?
+	* suggestions for future projects at this course
+	* how could things have been more enjoyable?
+
+
